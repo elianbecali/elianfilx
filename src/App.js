@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end?"}
+        videoDescription={"Bora criar uma coisa mais legal! Nesta aula vamos usar o React e o Styled Component pra construir um app web que gera memes!"}
       />
 
       <Carousel
@@ -21,16 +21,7 @@ function App() {
         category={dadosIniciais.categorias[0]}
       />
       <Carousel
-        ignoreFirstVideo
         category={dadosIniciais.categorias[1]}
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[2]}
-      />
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[3]}
       />
 
       <Footer />
